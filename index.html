@@ -17,9 +17,9 @@
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
 
-    <header>
+    <header role="banner">
         <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true">&nbsp;</i>
         </div>
         <ul id="menu" class="shadow">
             <li>
@@ -40,7 +40,7 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Metal-Zero</h1>
-            <h2>Front-End / UI Developer</h2>
+            <h2>UI Developer</h2>
         </div>
         <div id="lead-overlay"></div>
         <div id="lead-down">
@@ -107,10 +107,34 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="2012. 09 – 재직중">
-                <h3>엔에이치엔테크놀로지서비스(주)</h3>
-                <h4>뮤직&웍스 UI개발 / 과장</h4>
+            <div data-date="2022. 02 – 재직중">
+                <h3>컨텐츠웨이브(주)</h3>
+                <h4>웹개발팀 / 매니저</h4>
                 <dl class="experience_list">
+                    <dt>2023</dt>
+                    <dd>
+                        Wavve 서비스 전체 Device - 이미지 포스터 / 썸네일 Webp 적용
+                    </dd>
+                    <dt>2022</dt>
+                    <dd>
+                        Wavve 서비스 전체 Device 마크업 리딩<br>
+                        Wavve PC/Mobile css -> scss 마이그레이션 및 컴포넌트 정의<br>
+                        Wavve PC 검색 / 홈 UX / 콘텐츠 상세 개선 UI개발<br>
+                        현대자동차 인앱 Wavve서비스 - vue + styled-component + storybook.js UI개발<br>
+                        Wavve TechDay 발표 Speaker<br>
+                        (Scss 마이그레이션 적용기 / 현대자동차 styled-component + storybook.js 개발 사례)
+                    </dd>
+                </dl>
+            </div>
+            <div data-date="2012. 09 – 2022. 02">
+                <h3>엔에이치엔테크놀로지서비스(주)</h3>
+                <h4>뮤직&웍스 UI개발 / 차장</h4>
+                <dl class="experience_list">
+                    <dt>2022</dt>
+                    <dd>
+                        Entry - React Styled-component - WorkSpace / learning 리뉴얼 및 리딩<br>
+                        네이버 날씨 서비스 - 실시간 톡 게시판 리뉴얼 및 리딩
+                    </dd>
                     <dt>2021</dt>
                     <dd>
                         Entry - React Styled-component / Css Module UI 개발<br>
@@ -305,6 +329,40 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Wavve.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Wavve</h3>
+                        <p>
+                            PC / Mobile css -> scss 형태로 마이그레이션<br>
+                            css 2중 중복 override 이슈 개선 및 컴포넌트 단위로 개발<br>
+                            UI / UX 개선 페이지 리뉴얼 UI개발<br>
+                            현대 자동차 인앱 Wavve 서비스 <br>
+                            vue + styled-components + storybook.js UI개발<br>
+                            Wavve all Device 이미지 포스터 webp 적용 및 페이지 경량화 대응<br>
+                            <strong>참여도 : 100%</strong>
+                        </p>
+                        <a href="https://www.wavve.com/">View Project</a>
+                    </div>
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/WeatherNaver.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Naver Weather</h3>
+                        <p>
+                            Yarn Task Sass를 이용하여 UI개발 <br>
+                            레거시한 페이지 및 코드를 템플릿화시켜 개선<br>
+                            대기영상, 미세먼지, 레이더 영상등 web player 형태로 개선<br>
+                            특보 게시판 - 네이버 공통댓글 톡 게시판을 css만 활용하여 커스터마이징<br>
+                            <strong>참여도 : 100%</strong>
+                        </p>
+                        <a href="https://weather.naver.com/">View Project</a>
+                    </div>
+                </div>
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/Entry.jpg" />
@@ -503,19 +561,6 @@
                         </p>
                     </div>
                 </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/MoviePot.jpg" />
-                    </div>
-                    <div class="project-info">
-                        <h3>LG U+ MoviePot</h3>
-                        <p>
-                            Jquery + ResponsiveWeb UI개발<br><br>
-                            <strong>참여도 : 100%</strong>
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -526,15 +571,14 @@
         <ul>
             <li>JavaScript</li>
             <li>React</li>
+            <li>Vue</li>
             <li>Styled-Component</li>
             <li>CSS3</li>
             <li>HTML5</li>
             <li>Responsive Web</li>
             <li>Nunjucks.js</li>
-            <li>PHP-ti.js</li>
+            <li>storybook.js</li>
             <li>Yarn</li>
-            <li>Gulp</li>
-            <li>JQuery</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -544,7 +588,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 Metal-Zero
+                        Copyright &copy; 2023 Metal-Zero
                     </p>
                 </div>
                 <div class="col-sm-2 top">
